@@ -1,0 +1,101 @@
+.for_business {
+  width: 1358px;
+  margin-left: 82px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 94px;
+  margin-bottom: 146px;
+  background: url(../img/Rectangle25.png) no-repeat 0% 42%, url(../img/Rectangle24.png) no-repeat 100% 56%, url(../img/DotOrnament.png) no-repeat 5% 89%, url(../img/Ellipse94.png) no-repeat 89% 92%;
+}
+
+.business_text {
+  width: 396px;
+  margin-left: 39px;
+  margin-top: 360px;
+}
+.business_title {
+  width: 358px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.card_adventages {
+  width: 308px;
+  height: 379px;
+  border-radius: 40px;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.card_adventages p {
+  color: #757575;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 245px;
+}
+
+.title_card {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+
+.business_planing .title_card {
+  width: 167px;
+}
+
+.card_img {
+  width: 121px;
+  height: 121px;
+  border-radius: 20px;
+  background: #f1f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.business_financial .title_card {
+  width: 199px;
+}
+.business_financial .card_img {
+  background: #fff7e3;
+}
+
+.business_development .title_card {
+  width: 239px;
+}
+.business_development .card_img {
+  background-color: #fff2f8;
+}
+
+.business_analysis .title_card {
+  width: 231px;
+}
+.business_analysis .card_img {
+  background-color: #deffee;
+}
+
+.first_column {
+  margin-left: 91px;
+  margin-top: 79px;
+}
+
+.second_column {
+  margin-left: 34px;
+}
+/*# sourceMappingURL=for_business.css.map */

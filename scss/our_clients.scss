@@ -1,0 +1,32 @@
+$p-color: #757575;
+
+.our_clients {
+  width: 1200px;
+  height: 124px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .clients_title {
+    margin-bottom: 17px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  p {
+    color: $p-color;
+  }
+  .client_text {
+    width: 336px;
+  }
+  .client_companies {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 60px;
+    img + img {
+      margin-left: 60px;
+    }
+  }
+}

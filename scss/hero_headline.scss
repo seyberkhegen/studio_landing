@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Averta";
+  src: url("../Averta.woff2");
+}
+body {
+  font-family: "Averta", sans-serif;
+}
+a {
+  color: #000;
+}
+$hero-bg: url("../img/hero_bg.png");
+$hero-bg2: url("../img/hero_bg2.png");
+$hero-bg3: url("../img/DotOrnament.png");
+
+.nav {
+  padding-top: 35px;
+  padding-bottom: 33px;
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    img {
+      margin-right: 15px;
+    }
+  }
+}
+.navigation-list {
+  ul {
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.16px;
+  }
+  li:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+.hero_headline {
+  height: 608px;
+  margin-top: 40px;
+  background: $hero-bg no-repeat 48% 0%, $hero-bg2 no-repeat 90% 95%,
+    $hero-bg3 no-repeat 6% 79%;
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-left: 120px;
+    .hero_title {
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 40px;
+    }
+    .hero_text {
+      padding-top: 123px;
+      p {
+        color: #565656;
+        font-family: "Averta", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 33px;
+      }
+      .hero_button {
+        display: inline-flex;
+        padding: 20px 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 60px;
+        background: #2639ed;
+        color: white;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.3px;
+      }
+    }
+  }
+}
